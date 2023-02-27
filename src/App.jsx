@@ -1,20 +1,24 @@
 import React from "react";
-import Footer from "./layout/Footer";
-import Main from "./layout/Main";
-import NavBar from "./layout/NavBar";
+import { BrowserRouter as Router } from "react-router-dom";
+import Footer from "./components/layout/Footer";
+import Main from "./components/layout/Main";
+import NavBar from "./components/layout/NavBar";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 function App() {
+  Aos.init({
+    duration: 1200,
+    offset: 0,
+  });
   return (
-    <div>
-      {/* NavBar */}
-      <NavBar />
-
-      {/* Main */}
-      <Main />
-
-      {/* Footer */}
-      <Footer />
-    </div>
+    <Router>
+      <div>
+        <NavBar />
+        <Main />
+        <Footer />
+      </div>
+    </Router>
   );
 }
 

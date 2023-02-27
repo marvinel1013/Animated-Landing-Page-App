@@ -9,3 +9,7 @@
     font-family: "Heebo", sans-serif;
   }
 }
+
+* {
+  scroll-behavior: smooth;
+}
