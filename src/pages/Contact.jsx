@@ -10,7 +10,7 @@ function Contact() {
         alt="hero-image"
         className="relative z-[-1] h-screen w-full object-cover"
       />
-      <div className="text-white md:mt-[-630px] mt-[-550px] h-full w-full flex justify-center ">
+      <div className="text-white md:mt-[-630px] mt-[-500px] h-full w-full flex justify-center ">
         <div className="">
           <h1
             className="md:text-5xl text-3xl font-bold mb-7"
