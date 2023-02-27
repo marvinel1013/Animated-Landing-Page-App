@@ -25,7 +25,7 @@ function Footer() {
         alt="hero-image"
         className="relative z-[-1] h-full w-full object-cover"
       />
-      <div className="text-white md:mt-[-350px] mt-[-500px]">
+      <div className="text-white md:mt-[-350px] mt-[-570px]">
         <div className="md:px-36 px-8">
           <div className="flex justify-between">
             <div className="flex items-center gap-2">
